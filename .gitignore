@@ -1,0 +1,6 @@
+#python environment
+venv/
+
+#
+.DS_Store
+.idea/
