@@ -1,4 +1,5 @@
-from .douban_spider import html_parser, html_downloader
+from douban_spider import html_downloader, html_parser, html_outputer
+from bs4 import BeautifulSoup
 class SpiderMain(object):
     def __init__(self):
         self.downloader = html_downloader.HtmlDownloader()
