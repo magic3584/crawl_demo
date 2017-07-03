@@ -12,4 +12,5 @@ python3 spider_main.py
 ```
 # Output
 douban.txt
+pics/images
 
