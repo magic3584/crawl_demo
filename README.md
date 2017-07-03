@@ -11,6 +11,6 @@ pip3 install beautifulsoup4
 python3 spider_main.py
 ```
 # Output
-douban.txt
-pics/images
+* douban.txt
+* pics/images
 
