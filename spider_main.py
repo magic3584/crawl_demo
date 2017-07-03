@@ -18,4 +18,4 @@ if __name__ == "__main__":
         url = 'https://movie.douban.com/top250?start=%d&filter=' % (i * 25)
         obj_spider.crawl(url)
         print('index %d, url: %s' % (i, url))
-    obj_spider.outputer.output_html()
+    obj_spider.outputer.output()

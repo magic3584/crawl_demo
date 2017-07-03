@@ -13,8 +13,8 @@ class HtmlParser(object):
         for li in soup.find('ol', class_='grid_view').findAll('li'):
             index = li.find('em').get_text()
             title = li.find(class_='title').get_text()
-
-            dic = {'index': index, 'title': title}
+            picUrl = li.find('img').get('src')
+            dic = {'index': index, 'title': title, 'pic': picUrl}
             data.append(dic)
         return data
 
