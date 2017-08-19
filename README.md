@@ -5,7 +5,7 @@ A spider for https://movie.douban.com/top250
 ``` ruby
 git clone git@github.com:magic3584/crawl_demo.git
 cd crawl_demo
-virtualenv --no-site-packages
+virtualenv --no-site-packages venv
 source venv/bin/activate
 pip3 install beautifulsoup4
 python3 spider_main.py
